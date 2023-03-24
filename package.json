@@ -10,7 +10,6 @@
     "build": "cd client && npm run dev",
     "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client && npm start"
-    
   },
   "keywords": [],
   "author": "",
@@ -24,6 +23,7 @@
   "devDependencies": {
     "concurrently": "^5.3.0",
     "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.5",
     "nodemon": "^2.0.4",
     "webpack": "^5.76.2",
     "webpack-dev-server": "^4.12.0",
